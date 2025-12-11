@@ -1,0 +1,29 @@
+.border{
+    border: 2px solid rgb(106, 101, 101);
+    margin: 10px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-items{
+    justify-content: center;
+}
+
+.items-align{
+    align-items: center;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}

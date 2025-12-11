@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRS Music- Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/x-icon" href="https://www.spotify.com/favicon.ico
+">
+
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left p-1">
+            <div class="Home bg-gray br-radius bold">
+                <div id="cross">
+                    <div class="logo"><img src="Spotify.png" alt="">DRS Music</div>
+                    <div class="cross"><img src="cross.png" alt=""></div>
+                </div>
+
+                <ul>
+                    <li><img src="Home.png" alt="home">Home</li>
+                    <li class="search"><img src="search.png" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-gray br-radius p-1">
+                <div class="ylibrary bold flex items-align"><img src="playlist.png" alt="your library">Your Library
+                </div>
+                <ul id="songList">
+
+                </ul>
+
+
+                <footer>
+                    <div><a href="https://www.spotify.com/in-en/legal/end-user-agreement/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/us/safetyandprivacy/personal-data-collected"><span>Privacy
+                                Center</span></a></div>
+
+                    <div><a href="https://www.spotify.com/us/legal/cookies-policy/"><span>Privacy Cookies</span></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="right bg-gray br-radius m-1">
+            <div class="header">
+                <div class="nav flex p-1">
+                    <div class="lr ">
+                        <button class="menu"><img src="menu.png" alt=""></button>
+                        <button class="lrbutton"><img src="lessthan.png" alt="previous"></button>
+                        <button class="lrbutton"><img src="greaterthan.png" alt="next">
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button class="signupbtn">Sign Up</button>
+                        <button class="loginbtn">Log In</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2>DRS Music Playlist</h2>
+
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="mixed songs.jpg" alt="">
+                        <div class="playbutton"><img src="play.png" alt=""></div>
+                        <h3>Mixed Songs</h3>
+                        <p>These song are randomely picked from the browser.</p>
+                    </div>
+
+                    <div class="cards">
+                        <img src="vivah song.jpg" alt="">
+                        <div class="playbutton"><img src="play.png" alt=""></div>
+                        <h3>Vivah Songs</h3>
+                        <p>These song are randomely picked from the browser.</p>
+                    </div>
+
+                    <div class="cards">
+                        <img src="90s sadabahar.jpg" alt="">
+
+                        <div class="playbutton"><img src="play.png" alt=""></div>
+                        <h3>90s Sadabahar</h3>
+                        <p>These song are randomely picked from the browser.</p>
+                    </div>
+
+                    <div class="cards">
+                        <img src="EnglishSongs.jpeg" alt="">
+
+                        <div class="playbutton"><img src="play.png" alt=""></div>
+                        <h3>English Songs</h3>
+                        <p>These song are randomely picked from the browser.</p>
+                    </div>
+
+                    <div class="cards">
+                        <img src="Top50HindiSongs.webp" alt="">
+
+                        <div class="playbutton"><img src="play.png" alt=""></div>
+                        <h3>Hindi Songs</h3>
+                        <p>These song are randomely picked from the browser.</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="songinfo"></div>
+                <div class="songtime"></div>
+                <div class="seekbar">
+                    <div class="progress"></div>
+                    <div class="circle">
+
+                    </div>
+                </div>
+
+                <div class="btntimevlm">
+                    <div class="playzone">
+                        <button class="previous"><img src="previous.png" alt="playprevious"></button>
+                        <button class="play"><img src="songplay.png" alt="play">
+                        </button>
+                        <button class="next"><img src="next.png" alt="playnext"></button>
+                    </div>
+                    <div class="volumeseek">
+                        <div class="volume"><img src="volume.png" alt=""></div>
+                        <div class="range">
+                            <input type="range" name="range">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
